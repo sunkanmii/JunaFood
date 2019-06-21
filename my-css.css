@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#header{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 2px 4px #0d3f0d;
+    height: auto;
+    background: linear-gradient(180deg, #000000, #242424);
+}
+#header ul{
+    display: inline-block;
+    margin: 15px 0px;
+    padding-right: 15px;
+    width: 100%;
+    text-decoration: none;
+}
+#header ul li a{
+    color: white;
+}
+#header ul li{
+    display: inline;
+    color: white;
+    font-size: 17.5px;
+    border-bottom: 1px solid navajowhite;
+    margin-left: 30px;
+}
+.front-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url("watering-1822642_1920.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.front-page .back-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(29, 27, 27, 0.438);
+    width: 100%;
+    height: 500px;
+}
+.front-page h3{
+    display: inline-block;
+    color: white; 
+    font-size: 40px;
+}
+.section-1{
+    width: 100%;
+}
+.section-1 .imgs{
+    display: inline-block;
+    width: 40%;
+}
+.section-1 .imgs img{
+    width: 150px;
+    height: auto;
+}
+.section-1 .img-txt{
+
+}
