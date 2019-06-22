@@ -60,17 +60,19 @@ a{
 }
 .section-1{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
     margin-top: 40px;
 }
 .section-1 .imgs{
-    display: inline-block;
-    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 73px;
     width: 55%;
 }
 .section-1 .imgs img{
-    width: 297px;
+    width: 45%;
+    margin-bottom: 5px;
     height: auto;
 }
 .section-1 img:nth-child(2){
@@ -83,7 +85,6 @@ a{
     display: inline-block;
     position: relative;
     width: 30%;
-    left: 15px;
     top: 120px;
 }
 .section-1 .img-txt h2{
@@ -94,6 +95,7 @@ a{
 .section-1 .img-txt p{
     margin-top: 20px;
     height: auto;
+    width: 290px;
     border-bottom: 3px solid #4CAF50;
 }
 .section-2{
