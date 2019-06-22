@@ -67,34 +67,34 @@ a{
 .section-1 .imgs{
     display: inline-block;
     margin-left: 30px;
-    width: 40%;
+    width: 55%;
 }
 .section-1 .imgs img{
-    width: 40%;
+    width: 297px;
     height: auto;
 }
 .section-1 img:nth-child(2){
-    margin-left: 185px;
+    margin-left: 165px;
 }
 .section-1 img:nth-child(3){
-    margin-left: 368px;
+    margin-left: 350px;
 }
 .section-1 .img-txt{
     display: inline-block;
     position: relative;
     width: 30%;
-    left: 145px;
+    left: 15px;
     top: 120px;
 }
 .section-1 .img-txt h2{
     display: inline-block;
     width: 89px;
-    border-bottom: 3px solid darkblue;
+    border-bottom: 3px solid #4CAF50;
 }
 .section-1 .img-txt p{
     margin-top: 20px;
-    height: 65px;
-    border-bottom: 3px solid darkblue;
+    height: auto;
+    border-bottom: 3px solid #4CAF50;
 }
 .section-2{
     display: flex;
@@ -112,15 +112,63 @@ a{
     align-items: center;
     justify-content: center;
     padding-top: 100px;
-    color: rgba(255, 255, 255, 0);
+    color: white;
     height: 500px;
     width: 100%;
     transition: all 300ms ease-in 120ms;
 }
 .section-2 div h2{
-    font-size: 90px;
+    font-size: 60px;
 }
 .section-2 div:hover{
     color: white;
     background-color: rgba(36, 34, 34, 0.308);
+}
+.section-3{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 h3{
+    color: rgb(104, 202, 104);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;   
+}
+.section-3 div{
+    width: 100%;
+    text-align: center;
+}
+.section-3 p{
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.section-3 hr{ 
+    width: 20px;
+    border: none;
+    border-radius: 200px;
+    background-color: rgb(104, 202, 104);
+    height: 5px;
+    margin-bottom: 40px;
+}
+footer{
+    width: 100%;
+    margin-top: 90px;
+    height: 130px;
+    color: white;
+    background-color: #242424;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    margin-bottom: 10px;
 }
