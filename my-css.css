@@ -280,7 +280,65 @@ a{
     font-size: 29.5px;
     color: goldenrod;
 }
-
+.contact-us-now{
+    width: 100%;
+    height: 515px;
+}
+.contact-us-now .contact-us-photo{
+    width: 100%;
+    background-image: url("cheerful-coffee-colleague-1331971.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.contact-us-now .contact-us-photo .cover{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: #2424244f;
+}   
+.contact-us-now .contact-us-photo .cover p:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    position: relative;
+    top: 80px;
+    margin-left: 20px;
+    width: 50%;
+}
+.contact-us-now .contact-us-photo .cover .button{
+    width: 50%;
+    color: white;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.contact-us-now .contact-us-photo .cover .button p{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 160px;
+    position: relative;
+    top: 0px;
+    margin: 0px 0px 49px 0px;
+    border: 1px solid goldenrod;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 200ms ease-in 90ms;
+}
+.contact-us-now .contact-us-photo .button p:hover{
+    border: 1px solid white;
+    color: goldenrod;
+    background-color: white; 
+}
 footer{
     width: 100%;
     margin-top: 90px;
